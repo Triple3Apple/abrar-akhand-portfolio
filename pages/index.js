@@ -5,7 +5,11 @@ import matter from 'gray-matter';
 export default function Home({ posts }) {
     console.log(posts);
 
-    return <div className="min-h-screen bg-blue-500">hey! Whats up?</div>;
+    return (
+        <>
+            <div className="min-h-screen bg-blue-500">hey! Whats up?</div>
+        </>
+    );
 }
 
 export function getStaticProps() {
